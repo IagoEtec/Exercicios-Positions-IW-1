@@ -1,0 +1,73 @@
+h1{
+    justify-content: center;
+    display: flex;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    border: solid black 5px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.item1,.item2,.item3,.item4,.item5{
+    width: 100px;
+    height: 100px;
+}
+
+.item1{
+    border: 5px solid red ;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.item2{
+    border: 5px solid green ;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.item3{
+    border: 5px solid blue ;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.item4{
+    border: 5px solid yellow ;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.item5{
+    border: 5px solid rgb(1, 204, 255) ;
+    position: absolute;
+    top: 195px;
+    left: 195px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: red
+}
+
+/*Professor eu assisti o video, eu procurei o exeplo que fiz na outra aula onde vc insinava as positions, copiei o codigo, n foi, tentei fzr eu mesmo n foi, procurei pelo video que vc mandou e fiz o codigo igualzinho e tbm n resolveu, procurei em foruns da internet e n achei o problema de geito algum, tentei fazer ele ficar no meio pelo olhometro msm, pq matematicamente falando era pra ficar no meio usando 475px (500-25).
+Eu ate tentei entender como resolve por meio da dica q o senhor me deus, porem n consegui executala. n faço a minima ideia de como muda o obsolute ser relativo a quem, pois o item esta dentro da box, a box e ralativa, e o item absolute.
+Eu queria muito entender o porque n funcionou, e dps dessa prova ficaria muito grato se o senhor esplicasse melhor essa questão.
+Ah professor alias, perdao o incomodo*\
